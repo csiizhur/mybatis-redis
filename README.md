@@ -8,3 +8,15 @@ flushdb
 flushall
 
 #SpringBoot默认的缓存方式就是在内存中通过ConCurrentMap结构来进行数据的缓存
+
+#阿里云maven镜像
+http://maven.aliyun.com/nexus/content/groups/public/
+setting.xml配置
+<mirrors>
+	<mirror>
+		<id>nexus-aliyun</id>
+		<mirrorOf>*</mirrorOf>
+		<name>Nexus aliyun</name>
+		<url>http://maven.aliyun.com/nexus/content/groups/public</url>
+	</mirror>
+</mirrors>
