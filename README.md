@@ -11,7 +11,7 @@ flushall
 
 #阿里云maven镜像
 http://maven.aliyun.com/nexus/content/groups/public/
-setting.xml配置
+#setting.xml配置
 <mirrors>
 	<mirror>
 		<id>nexus-aliyun</id>
